@@ -1,27 +1,18 @@
-#  Machine Learning Projects: Airbnb Price Prediction & Customer Churn Classification
+# 🏘️ Airbnb Price Prediction using Machine Learning
 
-This repository contains two end-to-end machine learning projects:
+This project predicts the price of Airbnb listings based on features like property type, room type, location, host activity, and amenities.
 
-- 🏘️ **Part 1: Airbnb Price Prediction** (Regression)
-- 📞 **Part 2: Customer Churn Prediction** (Classification)
+## 🎯 Objective
+- Build a regression model to predict Airbnb listing prices.
+- Identify key factors affecting pricing.
+- Help hosts make data-driven pricing decisions.
 
-Both projects include data preprocessing, feature engineering, model development, and evaluation.
+## 🔍 Key Steps
+- Data cleaning & outlier handling
+- Feature engineering (e.g. room type, location bins, reviews)
+- Model building (Linear Regression, XGBoost)
+- Evaluation using RMSE, MAE, R²
+- Simulation of pricing strategies
 
----
-
-## 📁 Project Structure
-
-### 🔹 [Part 1: Airbnb Price Prediction](./Part_1_Airbnb_Price_Prediction/)
-- Predicts Airbnb listing prices using regression models.
-- Includes feature engineering for location, host activity, and amenities.
-
-### 🔹 [Part 2: Customer Churn Prediction](./Part_2_Customer_Churn_Prediction/)
-- Predicts if a customer will churn based on service and demographic info.
-- Uses classification algorithms and evaluation metrics.
-
----
-
-## 💻 Tools Used
-- Python (Pandas, Scikit-learn, Matplotlib, Seaborn, XGBoost)
-- Google Colab
-- Machine Learning (Regression, Classification)
+## 📊 Tools
+- Python, Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, XGBoost
